@@ -1,7 +1,7 @@
 {
-  "name": "project-template",
+  "name": "@codesnippet/tutorial-node-intro",
   "version": "1.0.0",
-  "description": "How to use the Project Template",
+  "description": "Node.js Intro",
   "author": "codesnippet.io",
   "main": "server/main.js",
   "type": "module",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeSnippetHQ/project-template.git"
+    "url": "git+https://github.com/CodeSnippetHQ/tutorial-node-intro.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CodeSnippetHQ/project-template/issues"
+    "url": "https://github.com/CodeSnippetHQ/tutorial-node-intro/issues"
   },
-  "homepage": "https://github.com/CodeSnippetHQ/project-template#readme",
+  "homepage": "https://github.com/CodeSnippetHQ/tutorial-node-intro#readme",
   "dependencies": {
     "body-parser": "1.20.1",
     "dotenv": "16.0.3",

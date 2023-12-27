@@ -16,16 +16,22 @@
 
     <!-- code goes below -->
     <main class="grow flex flex-col items-center justify-center">
-        <h1 class="text-center text-2xl mt-5 font-bold my-4">CodeSnippet.io Project Template</h1>
+        <h1 class="text-center text-2xl mt-5 font-bold my-4">Node.js Asynchronous, Event-Driven Architecture</h1>
         <section>
-            <form id="name-form" class="flex space-x-2">
-                <div>
-                    <label for="name" class="sr-only">Your name</label>
-                    <input id="name" type="text" name="name" class="block w-full rounded-md border border-gray-300 px-2.5 py-1.5 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="What's your name?">
-                </div>
-                <button type="submit" class="inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
+            <form id="form" class="flex space-x-2">
+                <button id="file" type="submit" class="inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Download File (~7.5s)</button>
+                <button id="current-user" type="submit" class="inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Get Current User (~1s)</button>
+                <button id="customers" type="submit" class="inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Get 500 Customer Records (~3s)</button>
             </form>
         </section>
+        <div class="text-center py-4 space-y-2">
+            <p>Try downloading the large file first, then requesting the current user, then requesting the customer records.</p>
+            <p>Notice how the current user and customer records are returned before the file is downloaded?</p>
+            <p>That's because Node.js is asynchronous and non-blocking out-of-the-box!</p>
+            <div>
+                <a href="https://codesnippet.io/practical-intro-to-node?ref=example-project" class="text-indigo-500 font-semibold underline">Learn more about Node.js</a>
+            </div>
+        </div>
     </main>
     <!-- code goes above-->
 

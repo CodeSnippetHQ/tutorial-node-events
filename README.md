@@ -1,11 +1,16 @@
-# CodeSnippet.io Project Template
+# CodeSnippet.io Node.js Intro
 ###### By [Tim Wheeler](https://timwheeler.com?ref=github) from [CodeSnippet.io](https://codesnippet.io?ref=github)
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCodeSnippetHQ%2Fproject-template&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCodeSnippetHQ%2Ftutorial-node-intro&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ![project](client/images/project.png)
 
 ## 💡 General Info
+This is the code for the [Node.js Intro](https://codesnippet.io/practical-intro-to-node/
+?ref=github) tutorial on [CodeSnippet.io](https://codesnippet.io?ref=github).
+
+Follow the instructions below to get started:
+--
 This project is a lightweight [client-server application](https://en.wikipedia.org/wiki/Client%E2%80%93server_model) written primarily in JavaScript.
 
 - **Frontend** (the `client` folder)
